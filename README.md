@@ -49,14 +49,14 @@ The system is composed of three main hardware modules:
 
 ```
 External Devices (220V)
-   ↓            ↑
-[ Status ]   [ Control ]
-   ↓            ↑
-   └──→ AVR Microcontroller ←──┘
-                ↓
-          GSM Modem (SMS)
-                ↓
-           Remote User
+    ↓            ↑
+[ Status ]  [ Control ]
+    ↓            ↑
+  AVR Microcontroller
+          ↓↑
+    GSM Modem (SMS)
+          ↓↑
+      Remote User
 ```
 
 ---
